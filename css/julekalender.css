@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(32, 97, 0);
+}
+
+.Rekke{
+    position: relative;
+    padding-left: 15px;
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
+    column-gap: 0cap;
+    border: none;
+    background-color: transparent;
+    
+}
+
+.Luke{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.Luke > button{
+    border: none;
+    background-color: transparent;
+}
+
+.Luke > button > img{
+    width: 100%;
+}
+
+
+.filmbilde
+{
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+
+.doorOpen
+{
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.overskrift{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding-top: 0;
+}
+
+
